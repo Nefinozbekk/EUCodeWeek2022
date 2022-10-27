@@ -1,0 +1,27 @@
+#include <math.h>
+#include <stdio.h>
+
+int main()
+{
+    int girilen, girilen2, sayi, sayi2 = 0, basamakSayisi = 0 ;
+    printf("Lütfen bir tam sayı giriniz: ");
+    scanf("%d", &girilen);
+     girilen2 = girilen;
+    while (girilen2 != 0)
+    {
+        girilen2 /= 10;
+        ++basamaksayisi;
+    }
+    girilen2 = girilen;
+    while (girilen2 != 0)
+    {
+        sayi = girilen2%10;
+        sayi2 += pow(sayi, basamakSayisi);
+        girilen2 /= 10;
+    }
+        printf("%d Bu bir Armstrong sayısıdır.", girilen);
+    else
+        printf("%d Bu bir Armstrong sayısı değildir.", girilen);
+
+    return 0;
+}
