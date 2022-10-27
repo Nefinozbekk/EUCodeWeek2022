@@ -1,0 +1,2 @@
+# EUCodeWeek2022
+Avrupa Kodlama Haftası kapsamındaki etkinliklerimizde ürettiğimiz çalışmalarımızdır
